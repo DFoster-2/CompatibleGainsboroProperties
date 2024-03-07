@@ -4,7 +4,9 @@ An Unblock game website
 
 | Version | Available          | Changes                   |
 | ------- | ------------------ | ------------------------- |
-|  7      | :white_check_mark: |[New background](https://house-778.github.io)          |
+|  9      | :white_check_mark: | [New background](https://house-778.github.io)|
+|  8-     | :white_check_mark: | Dose not work             |
+|  7      | :x: |              | security update
 |  6pro   | :x:                | New login system          |
 |  6      | :x:                | Bug fix                   |
 |  5      | :x:                | security update           |
