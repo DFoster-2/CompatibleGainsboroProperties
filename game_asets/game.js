@@ -463,13 +463,10 @@ function openq() {
 function closeq() {
   document.getElementById("Quickaccess").style.width = "0";
 }
+var currentPage = window.location.pathname;
+var visitedPages = JSON.parse(localStorage.getItem('visitedPages')) || [];
 
-function storeVisitedPage() {
-  var currentPage = window.location.pathname;
-  var visitedPages = JSON.parse(localStorage.getItem('visitedPages')) || [];
-
-  if (!visitedPages.includes(currentPage)) {
-    visitedPages.push(currentPage);
-    localStorage.setItem('visitedPages', JSON.stringify(visitedPages));
-  }
+if (!visitedPages.includes(currentPage)) {
+  visitedPages.push(currentPage);
+  localStorage.setItem('visitedPages', JSON.stringify(visitedPages));
 }
