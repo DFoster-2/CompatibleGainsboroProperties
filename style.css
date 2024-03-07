@@ -62,7 +62,7 @@ hr{
   border: 1px solid #ffffff;
 }
 
-input{
+input[type=text] {
   background-color: #000000;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -71,9 +71,6 @@ input{
   font-size: 16px;
   cursor: pointer;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  transition: transform 0.5s;
-
-input[type=text] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
