@@ -24,6 +24,7 @@ function searchGames() {
         txtValue = button.innerText || button.textContent;
 
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            button.style.display = "none";
             button.style.display = "";
         } else {
             button.style.display = "none";
