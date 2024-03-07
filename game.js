@@ -1,8 +1,8 @@
 var visitedPages = JSON.parse(localStorage.getItem('visitedPages')) || [];
 var visitedPagesContainer = document.getElementById('visitedPages');
-visitedPagesContainer.innerHTML = '<h2>Visited Pages:</h2>';
+visitedPagesContainer.innerHTML = '';
 if (visitedPages.length === 0) {
-  visitedPagesContainer.innerHTML += '<p>No pages visited yet.</p>';
+  visitedPagesContainer.innerHTML += '<p>You have not played any games on this computer</p> ';
 } else {
   visitedPages.forEach(function (page) {
     visitedPagesContainer.innerHTML += `<button onclick="goToPage('${page}')">${page}</button>`;
