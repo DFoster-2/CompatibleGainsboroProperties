@@ -77,11 +77,11 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  width: 100%;
+  width: 90%;
 }
 
 
-}
+
 h1{
   color: #ffffff;
   font-size: 36px;
