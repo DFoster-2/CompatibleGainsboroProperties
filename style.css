@@ -73,13 +73,13 @@ input{
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.5s;
 
-.searchInput[type=text] {
+#searchInput[type=text] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
 
-.searchInput[type=text]:focus {
+#searchInput[type=text]:focus {
   width: 100%;
 }
 
