@@ -90,8 +90,9 @@ h1{
 }
 
 .fit{
-  width: fit-content;
+  width: 100%;
   left: 0;
+
 }
 .navebar{
   top: 0;
