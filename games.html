@@ -19,8 +19,8 @@
     <button onclick='window.location.href = "games.html";'><span class="material-symbols-outlined">home</span></button>
     <button style = "height: 50px;" onclick='window.location.href = "tc.html";'><span class="material-symbols-outlined">gavel</span></button>
     <button onclick='window.location.href = "report.html";'><span class="material-symbols-outlined">bug_report</span></button>
-     <label for="search"><span class="material-symbols-outlined">search</span></button></label>
-    <input style="float: right;" type="search" id="search" name = "search"  placeholder="Search" oninput="performSearch()">
+    <label style="float: right;" for="search"><span class="material-symbols-outlined">search</span></button></label>
+    <input style="float: right;" type="text" id="searchInput" name = "search" onkeyup="searchGames()" placeholder="Search for a game...">
     <br>
     <hr>
   </div>
