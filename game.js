@@ -1,9 +1,10 @@
 function getCleanFileName(page) {
   var pathArray = page.split('/');
   var fileName = pathArray.pop();
-  fileName = fileName.replace(/_/g, '');
-  fileName = fileName.replace(/-/g, '');
   fileName = fileName.replace('_new', '');
+  fileName = fileName.replace(/_/g, ' ');
+  fileName = fileName.replace(/-/g, ' ');
+  fileName = fileName.replace(/.html/g, '');
   return fileName;
 }
 
